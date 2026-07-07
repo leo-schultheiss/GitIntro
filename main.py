@@ -1,4 +1,4 @@
-import os, csv
+import csv
 
 def main():
     print("Hello World!")
@@ -8,7 +8,6 @@ def main():
         csv_reader = csv.reader(csv_file)
         for row in csv_reader:
             print(row)
-
 
 if __name__ == "__main__":
     main()
